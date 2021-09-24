@@ -1,0 +1,77 @@
+{
+    "appButtonDesc": {
+        "message": "Export Tabs URLs"
+    },
+    "appName": {
+        "message": "Export Tabs URLs"
+    },
+    "appDesc": {
+        "message": "Save a list of all open tabs into a text file."
+    },
+    "optionsFormatCustom": {
+        "message": "Custom format"
+    },
+    "optionsFormatCustomPlaceholder": {
+        "message": "none"
+    },
+    "optionsButtonResetFormat": {
+        "message": "Reset"
+    },
+    "optionsButtonResetHeader": {
+        "message": "Reset"
+    },
+    "optionsFormatCustomDescription": {
+        "message": "<p>You can define a custom format instead of the default \"Include titles\" one.</p><p>You can use any combination of characters and the following special blocks:</p><ul><li><code>{title}</code>: title of a tab</li><li><code>{url}</code>: URL of a tab</li><li><code>{window-id}</code>: ID of the window containing a tab</li><li><code>\\r\\n</code>: new line</li></ul><p>Example: <code>[{title}]({url})\\r\\n</code></p>"
+    },
+    "optionsIgnoreNonHTTP": {
+        "message": "Ignore non-HTTP(S) URLs"
+    },
+    "optionsIgnoreNonHTTPDescription": {
+        "message": "<p>This option prevent Export Tabs URLs from listing tabs whose URL scheme is different from <code>http://</code> or <code>https://</code>.</p>"
+    },
+    "optionsIgnorePinned": {
+        "message": "Ignore pinned tabs"
+    },
+    "optionsIgnorePinnedDescription": {
+        "message": "<p>This option prevent Export Tabs URLs from listing pinned tabs.</p>"
+    },
+    "optionsFilterTabs": {
+        "message": "Enable tabs filtering"
+    },
+    "optionsFilterTabsDescription": {
+        "message": "<p>This option adds a filtering feature to Export Tabs URLs.</p><p>Both the title and URL are searched against (even if not displayed).</p><p>You can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#Using_special_characters\">regular expressions</a>.</p><p>Example:</p><ul><li><code>fe?ather</code>: matches both father and feather</li><li><code>(stackoverflow|github).com</code>: matches both stackoverflow.com and github.com</li></ul>"
+    },
+    "popupFilterTabsPlaceholder": {
+        "message": "Filter tabs"
+    },
+    "optionsCustomHeader": {
+        "message": "Custom header"
+    },
+    "optionsCustomHeaderPlaceholder": {
+        "message": "none"
+    },
+    "optionsCustomHeaderDescription": {
+        "message": "<p>You may define a custom header here.</p><p>You can use any combination of characters and the following special blocks:</p><ul><li><code>{num-tabs}</code>: number of tabs</li><li><code>\\r\\n</code>: new line</li></ul><p>Example: <code>From Export Tabs URLs (# links: {num-tabs})</code></p>"
+    },
+    "popupButtonCopy": {
+        "message": "Copy to clipboard"
+    },
+    "popupButtonExport": {
+        "message": "Export as file"
+    },
+    "popupLimitWindow": {
+        "message": "Limit to current window"
+    },
+    "popupLabelFormatCustom": {
+        "message": "Custom format"
+    },
+    "popupLabelFormatTitles": {
+        "message": "Include titles"
+    },
+    "copiedToClipboard": {
+        "message": "The list has successfully been copied to your clipboard."
+    },
+    "notCopiedToClipboard": {
+        "message": "An error has occured while trying to copy the list to your clipboard."
+    }
+}

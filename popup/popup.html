@@ -1,0 +1,44 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<script	src="/lib/moment.min.js"></script>
+<script	src="/shared/shared.js"></script>
+<script	src="popup.js"></script>
+
+<link href="/shared/shared.css" rel="stylesheet" type="text/css">
+<link href="popup.css" rel="stylesheet" type="text/css">
+
+<body>
+    <p class="popup-settings"><span class="popup-button-settings"></span></p>
+
+    <main>
+        <header>
+            <h1>Export Tabs URLs</h1>
+            <p class="popup-counter"></p>
+        </header>
+
+        <p class="popup-filter-tabs-container hidden">
+            <input type="text" class="popup-filter-tabs" placeholder="" data-i18n="popupFilterTabsPlaceholder" />
+        </p>
+
+        <p class="popup-textarea-container"><textarea class="popup-textarea"></textarea></p>
+
+        <div class="options">
+            <p>
+                <input type="checkbox" id="popup-format" />
+                <label for="popup-format" class="popup-label-format-custom hidden" data-i18n="popupLabelFormatCustom"></label>
+                <label for="popup-format" class="popup-label-format-titles" data-i18n="popupLabelFormatTitles"></label>
+            </p>
+
+            <p class="hidden">
+                <input type="checkbox" id="popup-limit-window" />
+                <label for="popup-limit-window" data-i18n="popupLimitWindow"></label>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <span class="popup-button-copy" data-i18n="popupButtonCopy"></span>
+        <span class="popup-button-export" data-i18n="popupButtonExport"></span>
+    </footer>
+</body>
