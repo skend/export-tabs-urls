@@ -32,5 +32,5 @@ Consider this add-on done (except for bugfixes). I may or may not add new featur
 ## Authors:
 * alct (https://github.com/alct/export-tabs-urls)
 * Gustavo (https://github.com/gusthoff)
-* Sam (https://github.com/)
+* Sam (https://github.com/skend)
 * Falko Richter (https://github.com/falkorichter)
